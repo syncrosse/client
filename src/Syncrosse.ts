@@ -3,9 +3,10 @@ import { io, Socket } from 'socket.io-client';
 export class Syncrosse {
   private socket: Socket;
 
-  constructor() {
+  constructor(lobbyId: string) {
     this.socket = io({
       transports: ['websocket'],
+      query: { lobbyId },
     });
   }
 
