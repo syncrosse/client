@@ -10,6 +10,14 @@ export class Syncrosse {
     });
   }
 
+  sendMessage(message: string) {
+    this.socket.emit('message', message);
+  }
+
+  onMessage(callback: (message: { author: string; content: string }) => void) {
+    this.socket.on('message', callback);
+  }
+
   onEvent(event: string, callback: (data?: any) => void) {
     this.socket.on(event, callback);
   }
