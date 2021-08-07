@@ -1,3 +1,3 @@
-# @syncrosse/server
+# @syncrosse/client
 
-This is the server for Syncrosse
+This is the client for Syncrosse

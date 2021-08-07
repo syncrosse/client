@@ -4,6 +4,9 @@
   "description": "Easy networking for games",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
