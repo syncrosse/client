@@ -29,11 +29,11 @@
     "online"
   ],
   "author": "devonpmack",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/syncrosse/client/issues"
   },
-  "homepage": "https://github.com/syncrosse/client#readme",
+  "homepage": "https://syncrosse.github.io/server/#/",
   "devDependencies": {
     "@types/jest": "^26.0.24",
     "jest": "^27.0.6",
