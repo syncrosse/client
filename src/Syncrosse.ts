@@ -4,10 +4,10 @@ import { Message } from './types';
 export class Syncrosse {
   private socket: Socket;
 
-  constructor(lobbyId: string) {
+  constructor(lobbyId: string, name: string) {
     this.socket = io({
       transports: ['websocket'],
-      query: { lobbyId },
+      query: { lobbyId, name },
     });
   }
 
