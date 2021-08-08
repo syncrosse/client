@@ -4,12 +4,12 @@
 
 > Easily connect your site with websockets
 
-- Perfect for multiplayer games, and realtime apps
+- Perfect for multiplayer games and realtime apps
 - Simple and easy to use. Almost no boilerplate required.
 - Built in React support.
 
 [Documentation](https://syncrosse.github.io/server/#/)
 
-[Getting Started](#getting-started)
+[Getting Started](https://syncrosse.github.io/server/#/?id=getting-started)
 
 [@syncrosse/server](https://github.com/syncrosse/server)
